@@ -40,17 +40,7 @@ public class Board {
     }
 
     private void fillShipBoard() {
-        /*
-         "randomize" the ship positions,
-               ship of 4 will always be horizontal,
-                   ships of 3 and 5 will always be vertical.
-         */
-        Random rand = new Random();
-
-        shipBoard[0][0] = shipOf3;
-        shipBoard[0][1] = shipOf3;
-        shipBoard[0][2] = shipOf3;
-
+        // TODO: come up with method(s) to randomize ship locations on the shipBoard.
     }
 
     public void shoot(int xLoc, int yLoc) {
