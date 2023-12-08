@@ -1,3 +1,5 @@
+import java.util.ArrayList;
+import java.util.List;
 import java.util.Random;
 
 public class Board {
@@ -41,6 +43,15 @@ public class Board {
 
     private void fillShipBoard() {
         // TODO: come up with method(s) to randomize ship locations on the shipBoard.
+        // Hard coded for now.
+        shipBoard[0][0] = shipOf3;shipBoard[0][1] = shipOf3;shipBoard[0][2] = shipOf3;
+
+        shipBoard[3][2] = shipOf4;shipBoard[4][2] = shipOf4;shipBoard[5][2] = shipOf4;
+        shipBoard[6][2] = shipOf4;
+
+        shipBoard[1][3] = shipOf5;shipBoard[1][4] = shipOf5;shipBoard[1][5] = shipOf5;
+        shipBoard[1][6] = shipOf5;shipBoard[1][7] = shipOf5;
+
     }
 
     public void shoot(int xLoc, int yLoc) {

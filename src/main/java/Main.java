@@ -11,17 +11,6 @@ public class Main {
 
         Board board = new Board(); // initialize board and player board
 
-//        to test randomized boards
-//        for (int i = 0; i < 10; i++) {
-//            System.out.println();
-//            for (int j = 0; j < 10; j++) {
-//                if (Board.shipBoard[i][j] != null)
-//                System.out.print("[" + Board.shipBoard[i][j].hitPoints + "]");
-//                else {
-//                    System.out.print("[ ]");
-//                }
-//            }
-//        }
 
 
         System.out.println("Welcome, there are 3 ships length of 3, 4 and 5 in the 10x10 grid.\n" +
