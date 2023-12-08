@@ -37,7 +37,7 @@ public class Main {
     }
 
     private static boolean gameOver(Board board) {
-        if (board.shipOf3.hasSunk()) { //&& board.shipOf4.hasSunk() && board.shipOf5.hasSunk()) {
+        if (board.shipOf3.hasSunk() && board.shipOf4.hasSunk() && board.shipOf5.hasSunk()) {
             System.out.println("You won the game!");
             return true;
         }
